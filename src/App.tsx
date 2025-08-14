@@ -30,7 +30,7 @@ const DivisibleByThree = observer(() => {
   );
 });
 
-const App = observer(() => {
+export const App = observer(() => {
   return (
     <div className="App">
       <h1>MobX + React + TypeScript</h1>
@@ -43,5 +43,3 @@ const App = observer(() => {
     </div>
   );
 });
-
-export default App;
